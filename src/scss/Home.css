@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+}
+
+.Part1{
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    width: 87%;
+    margin-bottom: 5%;
+
+}
+
+.Part1 h1 {
+    width: 70%;
+    margin: auto;
+}
+
+.Part1 p {
+    width: 70%;
+    margin: auto;
+    font-size: 64%;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.content{
+    margin: auto;
+}
+
+.Part1 button{
+    width: 70%;
+    margin-top: 5%;
+    border-radius: 43px;
+    width: 33%;
+    padding: 2%;
+}
+
+.button{
+    width: 70%;
+    margin: auto;
+}
+
+.Part1 button:nth-child(2){
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    font-weight: bold;
+    margin-left: 10%;
+    border-width: thin;
+
+}
+
+.Part1 button:first-child{
+    background-color: white;
+    border-color: #D9D9D9;
+    font-weight: bold;
+    border-width: thin;
+}
+
+.Part2{
+    padding-top: 2%;
+    background-color: #F5F5F5;
+}
+
+.Part2 .content{
+    width: 55%;
+    text-align: center;
+}
+
+.Part2 .content p{
+    font-size: 64%;
+    font-weight: bold;
+ }
+
+.Card{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 62%;
+    
+}
+
+
+
+.Sellers-item{
+    position: relative;
+    margin-left: 4%;
+    width: auto;
+    margin-bottom: 5%;
+}
+
+.text-overlay {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    position: absolute;
+    bottom: 3%;
+    right: 0px;
+    background-color: #848484;
+    font-size: 42%;
+    height: 28%;
+    width: 100%;
+}
+
+.Sellers-item:hover .text-overlay{
+    opacity: 1;
+    
+}
+
+
+.text-overlay h2 {
+    margin: 1%;
+}
+
+.text-overlay p {
+    margin: 1%;
+    color: #F5F5F5;
+}
+
+.img-overlay{
+    opacity: 1;
+    position: absolute;
+    bottom: 3%;
+    right: 0px;
+    background-color: #848484;
+    padding: 10px;
+}
+
+.Sellers-item:hover .img-overlay{
+    opacity: 0;
+    
+}
+
+.Part3{
+    background-color: white;
+    margin-top: 8%;
+}
+
+.Part3 h1{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .Part1 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .div-img{
+        width: 100%;
+        height: 98%;
+    }
+
+    .div-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .image1 img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Part1 h1 {
+        font-size: 129%;
+    }
+
+    .button {
+        width: 96%;
+        text-align: center;
+    }
+
+    .Card {
+        flex-wrap: wrap;
+        width: 62%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .img-overlay {
+        bottom: 2%;
+        right: 0%;
+        padding: 1%;
+    }
+
+    .text-overlay {
+        bottom: 2%;
+        right: 0px;
+        font-size: 42%;
+        height: 36%;
+    }
+}
+
