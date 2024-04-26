@@ -3,7 +3,7 @@ import store from "../assets/appstore-blanc.png"
 import facebook from "../assets/facebook.png"
 import insta from "../assets/insta.png"
 import google from "../assets/google-blanc.png"
-import "../scss/footer.css"
+import "../scss/footer.scss"
 
 export default function Footer() {
     return(

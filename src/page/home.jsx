@@ -20,7 +20,7 @@ import imageCarrousel10 from "../assets/Carrousel/image10.png"
 import imageCarrousel11 from "../assets/Carrousel/image11.png"
 import imageCarrousel12 from "../assets/Carrousel/image12.png"
 
-import "../scss/Home.css"
+import "../scss/Home.scss"
 import Carrousel from "../components/carrousel/carrousel";
 
 
@@ -93,7 +93,7 @@ export default function Home() {
 
     return(
         <div>
-            <div className="Part1">
+            <div id="Part1">
                 <div className="image1">
                     <img src={image1} alt="image1" />
                 </div>
@@ -108,7 +108,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="Part2">
+            <div id="Part2">
                 <div className="content">
                     <h1>Best sellers</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium pharetra odio non volutpat. 
@@ -125,7 +125,7 @@ export default function Home() {
                 </div>
 
             </div>
-            <div className="Part3">
+            <div id="Part3">
                 <h1>Dernières chances</h1>
                 <Carrousel items={items}/>
             </div>

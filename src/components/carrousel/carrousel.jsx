@@ -1,7 +1,7 @@
 import { useState } from "react";
 import arrowright from "../../assets/Carrousel/arrowright.png"
 import arrowleft from "../../assets/Carrousel/arrowleft.png"
-import "../../scss/carrousel.css"
+import "../../scss/carrousel.scss"
 
 export default function Carrousel({items}) {
 
@@ -17,7 +17,7 @@ export default function Carrousel({items}) {
 
     return (
         <div className="Carrousel">
-            <button onClick={previousImages}><img src={arrowleft} alt="arrowright" /></button>
+            <button onClick={previousImages}><img src={arrowleft} alt="arrowleft" /></button>
             <div className="Content">
             {items.slice(currentImageindex, currentImageindex + 4).map((item, index) => (
                 
